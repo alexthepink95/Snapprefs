@@ -41,8 +41,8 @@ import java.lang.reflect.Field;
 import java.lang.reflect.Type;
 
 public class Obfuscator implements Serializable {
-    public static int SUPPORTED_VERSION_CODE = 1161;
-    public final static String SUPPORTED_VERSION_CODENAME = "10.13.5.0";
+    public static int SUPPORTED_VERSION_CODE = 1173;
+    public final static String SUPPORTED_VERSION_CODENAME = "10.15.0.0";
     public final static String ROOTDETECTOR_CLASS = "aAY";//prev. ali
     public final static String[] ROOTDETECTOR_METHODS= {"b", "c", "d", "e"};
     public final static String FRIENDS_BF= "l";//prev. j
@@ -386,7 +386,7 @@ public class Obfuscator implements Serializable {
         public final static String NOTIFICATION_CLASS_1 = "xH";//prev. vz
         public final static String NOTIFICATION_CLASS_2 = "azz";//prev. ajh
     }
-    /*public static class icons {
+    public static class icons {
         public final static String CAPTIONOPENED_CLASS = "TX";
         public final static String CAPTIONOPENED_METHOD = "c";
     }*/
@@ -407,7 +407,7 @@ public class Obfuscator implements Serializable {
         public final static String SL_LOAD_METHOD = "a";
     }
     //Already implemented in Snapchat
-    /*public static class groups {
+    public static class groups {
         public final static String STORY_CLASS = "apb";//prev. Vp
         public final static String STORYARRAY_CLASS = "ase";//prev. Zx
         public final static String STORYARRAY_METHOD = "a";
@@ -422,7 +422,7 @@ public class Obfuscator implements Serializable {
         public final static String GETBUS_CLASS = "aju";//prev. RX
         public final static String GETBUS_METHOD = "a";
         public final static String BUS_POST = "a";
-    }*/
+    }
     public static class navbar { //done
         public final static String FORCENAVBAR_CLASS = "krk"; // prev. amv
         public final static String FORCENAVBAR_METHOD = "b";
